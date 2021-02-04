@@ -19,7 +19,6 @@ N is an integer within the range [1..2,147,483,647]. */
   function solution(N)
   { 
     intString = N.toString(2);
-       console.log(N.toString(2));
         gapCount=0;
         maxGapCount = 0;
         if(intString==1)
