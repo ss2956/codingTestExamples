@@ -47,13 +47,13 @@ class Solution {
         {
             array[(x+K)%A.length] = A[x];
         }
-        
-       return array; 
+
+       return array;
     }
-}
 
 
-class Main {
+
+
   public static void main(String[] args) {
     Solution s = new Solution();
     int[] testOne = {2,1,5,3};
